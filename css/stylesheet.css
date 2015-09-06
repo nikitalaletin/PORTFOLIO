@@ -1,0 +1,102 @@
+html body .container-fluid {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+html body {
+    height: 100%;
+    background: url("/img/heroshot.jpg") no-repeat center center;
+    background-image: url(http://jekatka.com/img/heroshot.jpg);
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: cover;
+    font-weight: 100;
+    font-family: 'Lora';
+    background-attachment: fixed;
+}
+.main-content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+.main-content h1 {
+    font-size: 42px;
+    letter-spacing: 8px;
+    margin: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.main-content .delay-05s {
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+}
+.main-content .delay-1s {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+.main-content h2 {
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.main-content h2:after {
+    content: " ";
+    border: solid 1px #0093cb;
+    display: block;
+    width: 55px;
+    margin: 15px auto;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+.main-content .nav-btn {
+    border: 1px solid #fff;
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 15px 15px 0 15px;
+    font-size: 16px;
+}
+.main-content .nav-btn:hover, .main-content .nav-btn:focus {
+    opacity: 1;
+    border-color: #0093cb;
+    color: #fff;
+    text-decoration: none;
+}
